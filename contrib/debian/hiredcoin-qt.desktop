@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=HiredCoin
+Comment=HiredCoin P2P Cryptocurrency
+Comment[fr]=HiredCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=HiredCoin, eşten eşe kriptografik sanal para birimi
+Exec=hiredcoin-qt %u
+Terminal=false
+Type=Application
+Icon=hiredcoin128
+MimeType=x-scheme-handler/hiredcoin;
+Categories=Office;Finance;

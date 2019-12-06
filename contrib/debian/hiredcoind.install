@@ -1,0 +1,2 @@
+usr/local/bin/hiredcoind usr/bin
+usr/local/bin/hiredcoin-cli usr/bin

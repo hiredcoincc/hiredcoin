@@ -1,0 +1,26 @@
+# /etc/conf.d/hiredcoind: config file for /etc/init.d/hiredcoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/hiredcoin/hiredcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/hiredcoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/hiredcoind.pid"
+
+# Where to write hiredcoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/hiredcoind"
+
+# User and group to own hiredcoind process
+#BITCOIND_USER="hiredcoin"
+#BITCOIND_GROUP="hiredcoin"
+
+# Path to hiredcoind executable
+#BITCOIND_BIN="/usr/bin/hiredcoind"
+
+# Nice value to run hiredcoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
